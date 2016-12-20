@@ -1,0 +1,125 @@
+/** navigation bar **/
+
+.navbar-custom {
+	background: 0 0;
+    border-bottom: 1px solid transparent;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 3;
+    font-family: 'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+
+.navbar-custom .navbar-brand {
+	color: #fff;
+    font-weight: 800;
+    padding: 20px;
+}
+
+.navbar-custom .nav li a {
+	color: #fff;
+    padding: 20px;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 1px;
+    font-weight: 800;
+}
+
+/** header section **/
+
+.header {
+	margin-bottom: 50px;
+    height: 450px;
+}
+
+.header .mainheading {
+	padding: 150px 0;
+    color: #fff;
+    text-align: center;
+}
+
+.header .mainheading h1 {
+	font-size: 80px;
+    font-weight: 800;
+    margin-top: 0;
+    font-family: 'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+
+.header .mainheading .small {
+	max-width: 100px;
+    margin: 15px auto;
+    border-width: 4px;
+    border-color: #fff;
+}
+
+.header .mainheading .subheading {
+	font-size: 24px;
+    line-height: 1.1;
+    display: block;
+    font-weight: 300;
+    margin: 10px 0 0;
+    font-family: 'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+
+/** section 1 **/
+
+#sec-1 .heading-2 a {
+	color: #333;
+}
+
+#sec-1 .heading-2 a h2 {
+	font-size: 36px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-family: 'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+    font-weight: 800;
+}
+
+#sec-1 .heading-2 a .subtitle {
+	margin: 0 0 10px;
+    font-weight: 300;
+    font-family: 'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+
+#sec-1 .heading-2 .para {
+	color: #777;
+    font-size: 18px;
+    font-style: italic;
+    margin-top: 0;
+    line-height: 1.5;
+    font-family: 'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+
+#sec-1 .pager {
+	margin: 20px 0 0;
+}
+
+#sec-1 .pager .next a {
+	font-size: 14px;
+    padding: 15px 25px;
+    background-color: #fff;
+    border-radius: 0;
+    font-family: 'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 1px;
+    color: #333;
+}
+
+/** footer section **/
+
+footer {
+	padding: 50px 0 65px;
+}
+
+footer .list-inline li a {
+	color: #333;
+}
+
+footer p {
+	font-size: 14px;
+    margin-bottom: 0;
+    text-align: center;
+    margin-top: 30px;
+}
